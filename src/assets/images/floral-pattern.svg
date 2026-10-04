@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="420" viewBox="0 0 380 420">
+<defs>
+<path id="petal" d="M0 0C-16-2-22-20-13-32C-8-39 8-39 13-32C22-20 16-2 0 0Z"/>
+<path id="petalS" d="M0 0C-10-1-14-13-8-21C-5-25 5-25 8-21C14-13 10-1 0 0Z"/>
+<path id="leaf" d="M0 0C4-9 14-13 27-8C19 3 8 5 0 0Z"/>
+<path id="leafS" d="M0 0C3-6 9-9 18-6C12 2 6 3 0 0Z"/>
+<g id="wreath">
+  <use href="#leaf" transform="rotate(12) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(57) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(102) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(147) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(192) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(237) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(282) translate(30 0) scale(1.15)"/><use href="#leaf" transform="rotate(327) translate(30 0) scale(1.15)"/>
+</g>
+<g id="peony">
+  <use href="#wreath"/>
+  <use href="#petal" transform="rotate(0)"/><use href="#petal" transform="rotate(51.43)"/><use href="#petal" transform="rotate(102.86)"/><use href="#petal" transform="rotate(154.29)"/><use href="#petal" transform="rotate(205.72)"/><use href="#petal" transform="rotate(257.15)"/><use href="#petal" transform="rotate(308.58)"/>
+  <use href="#petal" transform="rotate(25) scale(.72)"/><use href="#petal" transform="rotate(85) scale(.72)"/><use href="#petal" transform="rotate(145) scale(.72)"/><use href="#petal" transform="rotate(205) scale(.72)"/><use href="#petal" transform="rotate(265) scale(.72)"/><use href="#petal" transform="rotate(325) scale(.72)"/>
+  <use href="#petal" transform="rotate(10) scale(.46)"/><use href="#petal" transform="rotate(82) scale(.46)"/><use href="#petal" transform="rotate(154) scale(.46)"/><use href="#petal" transform="rotate(226) scale(.46)"/><use href="#petal" transform="rotate(298) scale(.46)"/>
+  <circle r="3.4"/>
+</g>
+<g id="bloom">
+  <use href="#petalS" transform="rotate(0)"/><use href="#petalS" transform="rotate(72)"/><use href="#petalS" transform="rotate(144)"/><use href="#petalS" transform="rotate(216)"/><use href="#petalS" transform="rotate(288)"/>
+  <use href="#petalS" transform="rotate(36) scale(.55)"/><use href="#petalS" transform="rotate(108) scale(.55)"/><use href="#petalS" transform="rotate(180) scale(.55)"/><use href="#petalS" transform="rotate(252) scale(.55)"/><use href="#petalS" transform="rotate(324) scale(.55)"/>
+  <circle r="2.4"/>
+</g>
+<g id="sprig">
+  <path d="M0 0C20-14 46-18 80-6L80-3.6C46-14 21-10 1 2.2Z"/>
+  <use href="#leaf"  transform="translate(14 -8) rotate(-40)"/>
+  <use href="#leaf"  transform="translate(31 -14) rotate(-16)"/>
+  <use href="#leafS" transform="translate(47 -15) rotate(-32)"/>
+  <use href="#leaf"  transform="translate(59 -12) rotate(4)"/>
+  <use href="#leaf"  transform="translate(22 -8) rotate(142)"/>
+  <use href="#leafS" transform="translate(42 -13) rotate(162)"/>
+  <use href="#leafS" transform="translate(66 -9) rotate(152)"/>
+</g>
+<g id="berries"><circle r="2.6"/><circle cx="6.5" cy="3" r="2.6"/><circle cx="1" cy="7.5" r="2.6"/></g>
+<g id="bud"><path d="M0 0C-6-6-6-17 0-22C6-17 6-6 0 0Z"/><use href="#leafS" transform="translate(-1 -2) rotate(150)"/><use href="#leafS" transform="translate(1 -3) rotate(30)"/></g>
+<g id="art"><use href="#peony" transform="translate(96 112) rotate(14) scale(1.05)"/><use href="#peony" transform="translate(290 300) rotate(-26) scale(0.86)"/><use href="#bloom" transform="translate(300 70) rotate(20) scale(1)"/><use href="#bloom" transform="translate(62 336) rotate(-12) scale(0.92)"/><use href="#bloom" transform="translate(196 214) rotate(38) scale(0.72)"/><use href="#sprig" transform="translate(168 40) rotate(14) scale(1.05)"/><use href="#sprig" transform="translate(168 460) rotate(14) scale(1.05)"/><use href="#sprig" transform="translate(10 236) rotate(-20) scale(1)"/><use href="#sprig" transform="translate(390 236) rotate(-20) scale(1)"/><use href="#sprig" transform="translate(366 372) rotate(170) scale(0.95)"/><use href="#sprig" transform="translate(-14 372) rotate(170) scale(0.95)"/><use href="#sprig" transform="translate(212 132) rotate(64) scale(0.78)"/><use href="#sprig" transform="translate(124 398) rotate(-6) scale(0.88)"/><use href="#sprig" transform="translate(124 -22) rotate(-6) scale(0.88)"/><use href="#sprig" transform="translate(330 190) rotate(118) scale(0.7)"/><use href="#bud" transform="translate(248 168) rotate(-30) scale(1)"/><use href="#bud" transform="translate(34 46) rotate(25) scale(0.95)"/><use href="#bud" transform="translate(206 300) rotate(70) scale(0.95)"/><use href="#berries" transform="translate(160 262) rotate(0) scale(1)"/><use href="#berries" transform="translate(70 212) rotate(0) scale(1)"/><use href="#berries" transform="translate(250 18) rotate(0) scale(1)"/><use href="#berries" transform="translate(360 130) rotate(0) scale(1)"/><use href="#berries" transform="translate(196 356) rotate(0) scale(1)"/></g>
+</defs>
+<use href="#art" fill="#9ea3dc" opacity=".5" transform="translate(1.8 2.4)"/>
+<use href="#art" fill="#ffffff" opacity=".74"/>
+<use href="#art" fill="none" stroke="#b4b8e6" stroke-width=".9" stroke-linejoin="round" opacity=".75"/>
+<use href="#art" fill="none" stroke="#ffffff" stroke-width=".7" stroke-linejoin="round" opacity=".6" transform="translate(-.5 -.6)"/>
+</svg>

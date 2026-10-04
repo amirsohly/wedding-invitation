@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>دعوت‌نامه جشن عقد</title>
+  <meta name="description" content="دعوت‌نامه دیجیتال جشن عقد">
+  <meta name="theme-color" content="#dcdcf5">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="دعوت‌نامه جشن عقد">
+  <meta property="og:description" content="با افتخار و مسرت شما را به جشن پیوند آسمانی‌مان دعوت می‌نماییم">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231f2657'/%3E%3Ccircle cx='13' cy='16' r='6' fill='none' stroke='%23c8b47e' stroke-width='1.8'/%3E%3Ccircle cx='19' cy='16' r='6' fill='none' stroke='%23c8b47e' stroke-width='1.8'/%3E%3C/svg%3E">
+  <link rel="preload" href="src/assets/fonts/vazirmatn-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="src/assets/fonts/mirza-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="src/data/weddingData.js" defer></script>
+  <script src="src/scripts/main.js" defer></script>
+</head>
+<body class="is-locked">
+
+  <!-- ============================================================
+       SVG sprite: icons + ornaments (referenced with <use>)
+       ============================================================ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <path id="pm" d="M0 0C-3.2-2.4-4.4-8.6 0-11.4C4.4-8.6 3.2-2.4 0 0Z"/>
+      <path id="lf" d="M0 0C5-6 13-8 21-4C13 2 5 4 0 0Z"/>
+    </defs>
+
+    <!-- floral divider -->
+    <symbol id="divider" viewBox="0 0 240 28">
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.1">
+        <path d="M8 14H88" opacity=".55"/>
+        <path d="M152 14H232" opacity=".55"/>
+      </g>
+      <g fill="currentColor" opacity=".9">
+        <use href="#lf" transform="translate(96 14) rotate(180) scale(.8)"/>
+        <use href="#lf" transform="translate(144 14) scale(.8)"/>
+        <g transform="translate(120 15)">
+          <use href="#pm" transform="rotate(0)"/><use href="#pm" transform="rotate(72)"/><use href="#pm" transform="rotate(144)"/><use href="#pm" transform="rotate(216)"/><use href="#pm" transform="rotate(288)"/>
+        </g>
+      </g>
+      <circle cx="120" cy="15" r="1.8" fill="#fff"/>
+    </symbol>
+
+    <!-- corner sprig (line art) -->
+    <symbol id="sprig" viewBox="0 0 120 96">
+      <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 92C26 74 40 50 66 30S102 8 116 6"/>
+        <path d="M26 70c-9-9-8-22 2-29c8 10 7 22-2 29z"/>
+        <path d="M42 50c-10-6-14-18-7-27c10 6 13 18 7 27z"/>
+        <path d="M60 34c-2-12 6-22 17-24c1 12-7 22-17 24z"/>
+        <path d="M86 20c-2-10 5-18 15-19c1 10-5 17-15 19z"/>
+        <path d="M34 76c10-2 20 4 25 13c-10 2-20-4-25-13z"/>
+        <path d="M70 40c10-2 18 4 22 12c-10 2-18-4-22-12z"/>
+      </g>
+      <g fill="currentColor" opacity=".8">
+        <circle cx="98" cy="30" r="2.6"/><circle cx="106" cy="38" r="2"/><circle cx="94" cy="40" r="1.8"/>
+        <circle cx="52" cy="60" r="2"/><circle cx="58" cy="66" r="1.5"/>
+      </g>
+    </symbol>
+
+    <!-- icons (24×24, stroke) -->
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.7-6.5-11a6.5 6.5 0 0 1 13 0c0 5.3-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></g></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l5-2.5 6 2.5 5-2.5V4l-5 2.5L9 4 4 6.5z"/><path d="M9 4v13.5M15 6.5V20"/></g></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L4 10.5l7.5 2 2 7.5z"/></g></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17.5V6l10-2v11.5"/><circle cx="6.5" cy="17.5" r="2.5"/><circle cx="16.5" cy="15.5" r="2.5"/></g></symbol>
+    <!-- small floral monogram ornament -->
+    <symbol id="monogram" viewBox="0 0 96 56">
+      <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 35c11-9 21-12 31-10M91 35c-11-9-21-12-31-10"/>
+        <path d="M15 31c-4-4-4-10 0-13c4 3 4 9 0 13zM27 26c-3-4-2-10 2-12c3 4 2 10-2 12z"/>
+        <path d="M81 31c4-4 4-10 0-13c-4 3-4 9 0 13zM69 26c3-4 2-10-2-12c-3 4-2 10 2 12z"/>
+        <g transform="translate(48 28)">
+          <path d="M0 0c-5-4-6-12 0-16c6 4 5 12 0 16z"/>
+          <path d="M0 0c-5-4-6-12 0-16c6 4 5 12 0 16z" transform="rotate(72)"/>
+          <path d="M0 0c-5-4-6-12 0-16c6 4 5 12 0 16z" transform="rotate(144)"/>
+          <path d="M0 0c-5-4-6-12 0-16c6 4 5 12 0 16z" transform="rotate(216)"/>
+          <path d="M0 0c-5-4-6-12 0-16c6 4 5 12 0 16z" transform="rotate(288)"/>
+        </g>
+      </g>
+      <circle cx="48" cy="28" r="1.5" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l5-2.4 6 2.4 5-2.4V4.2l-5 2.4-6-2.4-5 2.4z"/><path d="M9 4.2v13.4M15 6.6V20"/></g></symbol>
+    <symbol id="i-rotate" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.2" y="8.5" width="17.6" height="11" rx="2.2"/><path d="M8 5.2A6.5 6.5 0 0 1 18.6 6.6"/><path d="M18.9 3.4v3.4h-3.4"/></g></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></g></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5L8 12l6.5 6.5"/></g></symbol>
+  </svg>
+
+  <!-- ============================================================
+       1. ENVELOPE (full-screen, shown first)
+       ============================================================ -->
+  <div id="envelope" class="envelope">
+    <div class="env-body">
+      <div class="env-back" aria-hidden="true"></div>
+
+      <div class="env-card" aria-hidden="true">
+        <svg class="env-card-mono"><use href="#monogram"/></svg>
+        <p class="env-card-kicker">دعوت‌نامه‌ی جشن عقد</p>
+        <p class="env-card-names">
+          <span data-bind="brideName">آتنا</span>
+          <span class="amp">و</span>
+          <span data-bind="groomName">مهدی</span>
+        </p>
+        <svg class="env-card-divider"><use href="#divider"/></svg>
+        <p class="env-card-date" data-bind="dateDisplay"></p>
+      </div>
+
+      <div class="env-pocket" aria-hidden="true"></div>
+      <svg class="env-folds" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <g fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke">
+          <path d="M0 100L50 46L100 100" stroke="rgba(255,255,255,.55)" stroke-width="3" vector-effect="non-scaling-stroke"/>
+          <path d="M0 100L50 46L100 100" stroke="rgba(40,45,110,.16)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+        </g>
+      </svg>
+      <div class="env-flap-shadow" aria-hidden="true"></div>
+
+      <div class="env-flap" aria-hidden="true">
+        <div class="env-flap-front"></div>
+        <div class="env-flap-back"></div>
+      </div>
+
+      <button type="button" id="seal" class="wax-seal" aria-label="باز کردن دعوت‌نامه">
+        <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+          <defs>
+            <radialGradient id="waxGrad" cx="38%" cy="30%" r="78%">
+              <stop offset="0" stop-color="#4a58a3"/>
+              <stop offset=".42" stop-color="#252f6d"/>
+              <stop offset="1" stop-color="#0f1440"/>
+            </radialGradient>
+            <radialGradient id="waxGloss" cx="50%" cy="50%" r="50%">
+              <stop offset="0" stop-color="#fff" stop-opacity=".28"/>
+              <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+            </radialGradient>
+            <g id="emblem" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M60 58C53.5 53 52 42 60 37C68 42 66.5 53 60 58Z"/>
+              <path d="M60 58C53.5 53 52 42 60 37C68 42 66.5 53 60 58Z" transform="rotate(72 60 58)"/>
+              <path d="M60 58C53.5 53 52 42 60 37C68 42 66.5 53 60 58Z" transform="rotate(144 60 58)"/>
+              <path d="M60 58C53.5 53 52 42 60 37C68 42 66.5 53 60 58Z" transform="rotate(216 60 58)"/>
+              <path d="M60 58C53.5 53 52 42 60 37C68 42 66.5 53 60 58Z" transform="rotate(288 60 58)"/>
+              <circle cx="60" cy="58" r="2.2"/>
+              <path d="M60 64C56 74 48 80 37 82M60 64C64 74 72 80 83 82"/>
+              <path d="M50 72c-7-1-13 2-16 8c7 1 13-2 16-8zM70 72c7-1 13 2 16 8c-7 1-13-2-16-8z"/>
+              <path d="M44 66c-4-4-9-5-13-3c3 4 8 5 13 3zM76 66c4-4 9-5 13-3c-3 4-8 5-13 3z"/>
+              <circle cx="60" cy="86" r="1.4"/><circle cx="38" cy="90" r="1.2"/><circle cx="82" cy="90" r="1.2"/>
+            </g>
+          </defs>
+          <path class="wax-shape" fill="url(#waxGrad)" d="M114.24 60C114.7 62.7 113.49 65.7 112.51 68.32C111.54 70.94 109.4 73.17 108.38 75.72C107.36 78.27 107.53 81.23 106.4 83.64C105.28 86.06 103.57 88.4 101.61 90.23C99.65 92.07 96.79 93.09 94.64 94.64C92.5 96.2 90.82 98.08 88.74 99.56C86.66 101.04 84.37 102.12 82.17 103.51C79.97 104.9 77.82 106.09 75.57 107.91C73.31 109.73 71.22 113.2 68.62 114.43C66.03 115.67 62.76 116.05 60 115.32C57.24 114.58 54.59 111.51 52.08 110.02C49.57 108.53 47.29 107.49 44.93 106.37C42.57 105.26 40.2 104.46 37.93 103.31C35.66 102.17 33.7 100.64 31.3 99.51C28.89 98.37 25.79 97.95 23.5 96.5C21.21 95.05 19.05 93.06 17.57 90.83C16.1 88.59 15.95 85.53 14.65 83.11C13.35 80.69 11.11 78.76 9.78 76.32C8.44 73.88 6.68 71.17 6.63 68.45C6.58 65.73 8.5 62.66 9.47 60C10.44 57.34 11.62 54.94 12.44 52.47C13.26 50 13.7 47.61 14.4 45.18C15.11 42.76 16.21 40.64 16.67 37.92C17.13 35.2 16.51 31.77 17.16 28.87C17.81 25.98 18.56 22.45 20.57 20.57C22.57 18.69 26.4 18.44 29.19 17.59C31.98 16.74 34.77 16.38 37.31 15.46C39.85 14.55 41.95 12.81 44.44 12.12C46.94 11.43 49.7 11.59 52.29 11.33C54.88 11.06 57.39 10.78 60 10.55C62.61 10.32 65.35 9.64 67.93 9.95C70.51 10.25 72.85 11.79 75.47 12.39C78.09 13 80.79 13.13 83.65 13.58C86.52 14.02 90.33 13.58 92.66 15.05C94.98 16.53 96.43 19.72 97.58 22.42C98.73 25.12 98.69 28.64 99.54 31.27C100.39 33.91 101.69 35.93 102.69 38.25C103.7 40.57 104.39 42.88 105.56 45.2C106.73 47.51 108.29 49.66 109.73 52.12C111.18 54.59 113.77 57.3 114.24 60Z"/>
+          <!-- pressed inner field -->
+          <circle cx="60" cy="61" r="42" fill="#0d1238" fill-opacity=".35"/>
+          <circle cx="60" cy="61" r="42" fill="none" stroke="#0a0e30" stroke-opacity=".5" stroke-width="1.4"/>
+          <circle cx="59.2" cy="60" r="42" fill="none" stroke="#8d95d8" stroke-opacity=".45" stroke-width="1"/>
+          <!-- emblem: shadow copy + highlight copy = embossed look -->
+          <use href="#emblem" stroke="#070a28" stroke-opacity=".8" transform="translate(.9 1.1)"/>
+          <use href="#emblem" stroke="#9aa2e6" stroke-opacity=".95"/>
+          <!-- gloss -->
+          <ellipse cx="42" cy="34" rx="26" ry="15" fill="url(#waxGloss)" transform="rotate(-28 42 34)"/>
+        </svg>
+      </button>
+
+      <p class="env-hint" data-bind="envelopeHint">برای باز کردن دعوت‌نامه لمس کنید</p>
+    </div>
+  </div>
+
+  <!-- music toggle (only shown when musicUrl is set) -->
+  <button type="button" id="musicToggle" class="music-btn" hidden aria-pressed="false" aria-label="پخش موسیقی">
+    <svg class="icon" aria-hidden="true"><use href="#i-music"/></svg>
+    <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+  </button>
+  <audio id="bgm" loop preload="none"></audio>
+
+  <!-- ============================================================
+       2. INVITATION (revealed after the envelope opens)
+       ============================================================ -->
+  <main id="invitation" class="invitation" inert>
+
+    <!-- Hero / couple -->
+    <header class="hero section">
+      <svg class="hero-corner hero-corner--r" aria-hidden="true"><use href="#sprig"/></svg>
+      <svg class="hero-corner hero-corner--l" aria-hidden="true"><use href="#sprig"/></svg>
+
+      <p class="hero-kicker" data-reveal data-bind="heroKicker"></p>
+
+      <svg class="hero-mono" data-reveal="1" aria-hidden="true"><use href="#monogram"/></svg>
+
+      <h1 class="names" data-reveal="1">
+        <span class="name" data-bind="brideName"></span>
+        <span class="amp">و</span>
+        <span class="name" data-bind="groomName"></span>
+      </h1>
+      <p class="names-latin" id="namesLatin" data-reveal="2" hidden></p>
+
+      <div class="photo-ring" data-reveal="3">
+        <figure class="photo-frame">
+          <img id="couplePhoto" class="photo" src="" alt="" width="1151" height="1366" decoding="async" fetchpriority="high">
+        </figure>
+      </div>
+
+      <div class="date-card" data-reveal="4">
+        <p class="date-card-date"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span data-bind="dateDisplay"></span></p>
+        <p class="date-card-time"><span>ساعت شروع مراسم:</span> <span data-bind="timeDisplay"></span></p>
+      </div>
+    </header>
+
+    <!-- Invitation message -->
+    <section class="section message" aria-labelledby="messageTitle">
+      <h2 id="messageTitle" class="message-title" data-reveal data-bind="invitationTitle"></h2>
+      <svg class="divider" aria-hidden="true"><use href="#divider"/></svg>
+      <div class="message-text" data-reveal="1" data-bind="invitationText"></div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section countdown" aria-labelledby="countdownTitle">
+      <h2 id="countdownTitle" class="section-title" data-reveal data-bind="countdownTitle"></h2>
+      <div class="count-card" id="countdown" data-reveal="1" role="timer" aria-live="off">
+        <div class="count-unit"><span class="count-num" id="cdDays">۰</span><span class="count-label">روز</span></div>
+        <div class="count-unit"><span class="count-num" id="cdHours">۰۰</span><span class="count-label">ساعت</span></div>
+        <div class="count-unit"><span class="count-num" id="cdMinutes">۰۰</span><span class="count-label">دقیقه</span></div>
+        <div class="count-unit"><span class="count-num" id="cdSeconds">۰۰</span><span class="count-label">ثانیه</span></div>
+      </div>
+      <p class="count-done" id="countdownDone" hidden data-bind="countdownFinishedText"></p>
+    </section>
+
+    <!-- Event information + venue + buttons -->
+    <section class="section event" aria-labelledby="eventTitle">
+      <h2 id="eventTitle" class="section-title" data-reveal data-bind="eventTitle"></h2>
+      <svg class="divider" aria-hidden="true"><use href="#divider"/></svg>
+
+      <dl class="event-card" data-reveal="1">
+        <div class="event-row">
+          <dt><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>تاریخ</dt>
+          <dd data-bind="dateDisplay"></dd>
+        </div>
+        <div class="event-row">
+          <dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>ساعت</dt>
+          <dd data-bind="timeDisplay"></dd>
+        </div>
+        <div class="event-row" id="venueRow">
+          <dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>مکان</dt>
+          <dd data-bind="venue"></dd>
+        </div>
+        <div class="event-row">
+          <dt><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg>آدرس</dt>
+          <dd data-bind="address"></dd>
+        </div>
+      </dl>
+
+      <h3 class="sub-title" data-reveal="2"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>راه رسیدن به مراسم</h3>
+      <div class="actions" data-reveal="3">
+        <a class="btn btn--primary" id="navBtn" data-href="navigationUrl" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-nav"/></svg><span data-bind="navigationLabel">مسیریابی تا تالار</span>
+        </a>
+
+        <button type="button" class="route-card" id="routeMapBtn" hidden>
+          <span class="route-card-mark" aria-hidden="true"><svg class="icon"><use href="#i-route"/></svg></span>
+          <span class="route-card-text">
+            <span class="route-card-title" data-bind="routeMapTitle"></span>
+            <span class="route-card-sub" data-bind="routeMapSubtitle"></span>
+          </span>
+          <svg class="route-card-chev" aria-hidden="true"><use href="#i-chev"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="section closing">
+      <svg class="divider" aria-hidden="true"><use href="#divider"/></svg>
+      <h2 class="closing-title" data-reveal data-bind="closingTitle"></h2>
+      <p class="closing-text" data-reveal="1" data-bind="closingText"></p>
+      <p class="closing-names" data-reveal="2">
+        <span data-bind="brideName"></span>
+        <span class="amp">و</span>
+        <span data-bind="groomName"></span>
+      </p>
+      <svg class="closing-sprig" aria-hidden="true"><use href="#sprig"/></svg>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       3. ROUTE MAP VIEWER (full screen, pinch / double-tap to zoom)
+       ============================================================ -->
+  <div id="mapViewer" class="viewer" hidden role="dialog" aria-modal="true" aria-labelledby="viewerTitle">
+    <div class="viewer-backdrop" id="viewerBackdrop"></div>
+    <header class="viewer-bar">
+      <p class="viewer-title" id="viewerTitle" data-bind="routeMapTitle"></p>
+      <span class="viewer-actions">
+      <button type="button" class="viewer-btn" id="viewerRotate" hidden aria-pressed="false" aria-label="چرخاندن نقشه">
+        <svg class="icon" aria-hidden="true"><use href="#i-rotate"/></svg>
+      </button>
+      <button type="button" class="viewer-btn viewer-close" id="viewerClose" aria-label="بستن">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      </span>
+    </header>
+    <div class="viewer-stage" id="viewerStage">
+      <img id="viewerImg" class="viewer-img" alt="" decoding="async" draggable="false">
+    </div>
+    <p class="viewer-hint" id="viewerHint">برای بزرگ‌نمایی دو بار لمس کنید · برای تمام‌صفحه، نقشه را بچرخانید</p>
+  </div>
+
+  <noscript><p style="padding:24px;text-align:center;font-family:sans-serif">برای مشاهده‌ی دعوت‌نامه لطفاً جاوااسکریپت مرورگر را فعال کنید.</p></noscript>
+</body>
+</html>
